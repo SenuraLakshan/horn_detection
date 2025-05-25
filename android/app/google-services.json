@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601661144039",
+    "project_id": "fyproject-32475",
+    "storage_bucket": "fyproject-32475.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601661144039:android:60b4c370b04c9b518c1b42",
+        "android_client_info": {
+          "package_name": "com.researchapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUw2paJQIWi6WLOqMyEF7sKA4NzCfWVxg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

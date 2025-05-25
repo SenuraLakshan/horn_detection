@@ -1,13 +1,10 @@
-// index.js
-import {AppRegistry} from 'react-native';
+import { AppRegistry } from 'react-native';
 import App from './App';
-import {name as appName} from './app.json';
+import { name as appName } from './app.json';
 
-import {Buffer} from 'buffer';
-global.Buffer = Buffer;
-global.process = require('process');
-global.stream = require('stream');
-global.setImmediate = require('timers').setImmediate;
-global.clearImmediate = require('timers').clearImmediate;
+// Polyfill Buffer for React Native
+if (typeof Buffer === 'undefined') {
+    global.Buffer = require('buffer').Buffer;
+}
 
 AppRegistry.registerComponent(appName, () => App);
